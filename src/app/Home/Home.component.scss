@@ -1,0 +1,42 @@
+main {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 60px;
+    .landing__box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 700px;
+      gap: 20px;
+    }
+    h1, p {
+      color: #fff;
+    }
+    h1 {
+      font-size: 5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.5rem;
+      margin: 0;
+      margin-bottom: 30px;
+      // font-weight: 300;
+      // font-family: monospace;
+    }
+    .more {
+      border: none;
+      width: 200px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 1px;
+      font-size: 1.25rem;
+      color: #333;
+      transition: .3s;
+      cursor: pointer;
+    }
+    .more:hover {
+      background-color: #bababa;
+    }
+}

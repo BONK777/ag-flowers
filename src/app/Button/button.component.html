@@ -1,0 +1,9 @@
+<div class="btn" [style]="isClicked ? 'background-color: lightblue' : 'background-color: transparent'">
+    <button on-click="setClicked()">Click Me</button>
+</div>
+<hr style="width: 20px;">
+<div>
+    <button (click)="change(false)"  [disabled] = "cnt === 0">-</button>
+    {{cnt}}
+    <button (click)="change(true)">+</button>
+</div>

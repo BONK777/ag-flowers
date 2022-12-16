@@ -1,0 +1,22 @@
+.container{
+    width: 720px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 500px;
+    height: 700px;
+  }
+  
+  form input, select{
+    padding: 5px;
+    margin: 0 0 10px 0;
+    font-size: 15pt;
+  }

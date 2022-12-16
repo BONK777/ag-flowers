@@ -1,0 +1,6 @@
+<div class="cards">
+  <a class="card"  *ngFor="let plant of allPlants" [routerLink]="[plant.id]">
+      <img src="{{plant.images}}" alt="no photo"/>
+      <p>{{plant.name}}</p>
+  </a>
+</div>

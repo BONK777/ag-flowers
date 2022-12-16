@@ -1,0 +1,91 @@
+// *{
+//     // font-family: 'Oswald', sans-serif;
+//   }
+//   h1{
+//     margin: 20px;
+//     position: absolute;
+//     left: 40%;
+//   }
+//   .catalog{
+//     font-family: 'Oswald', sans-serif;
+//     justify-content: center;
+//     align-items: center;
+//     /* width: 720px; */
+//     padding: 100px;
+//     box-sizing: border-box;
+//     display: flex;
+//     gap: 30px;
+//     .category{
+//       cursor: pointer;
+//       display: flex;
+//       justify-content: center;
+//       border-radius: 10px;
+//       align-items: center;
+//       width: 200px;
+//       height: 200px;
+//       background-color: #d3f1d5;
+  
+//     h3{
+//       font-size: 25px;
+//     }
+//    }
+//   }
+  
+//   .cards{
+//     position: absolute;
+//     left: 10%;
+//     top: 20%;
+//     width: 100%;
+//     height: 100px;
+//     display: grid;
+//     grid-template-columns: repeat(6, 300px);
+//     gap: 20px;
+//   }
+  
+  
+//   .card{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     width: 200px;
+//     height: 200px;
+//     background-color: rgb(186, 186, 225);
+//     padding: 20px;
+//     border-radius: 5px;
+//     font-size: 20px;
+//     font-weight: bold;
+//     cursor: pointer;
+//     text-decoration: none;
+//     color: black;
+//     img{
+//       width: 150px;
+//       height: 150px;
+//     }
+//   }
+
+.cards {
+  // background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+    .card {
+      width: 300px;
+      height: 260px;
+      background-color: #bababa;
+      border-radius: 10px;
+        img {
+          width: 300px;
+          height: 200px;
+          background-size: cover;
+        }
+        p {
+          color: #000;
+          font-size: 1.25rem;
+          text-align: center;
+        }
+    }
+}
+  

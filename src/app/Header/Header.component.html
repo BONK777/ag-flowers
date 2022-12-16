@@ -1,0 +1,14 @@
+<header>
+  <a routerLink="/" class="logo"></a>
+  <nav>
+    <a class="links" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a class="links" routerLink="/about" routerLinkActive="active">About</a>
+    <a class="links" routerLink="/plants" routerLinkActive="active">Plants</a>
+    <a class="links" routerLink="/ajax" routerLinkActive="active">Ajax</a>
+  </nav>
+  <div class="plants__filter">
+    <div class="search__logo"></div>
+    <input class="plants__filter-input" type="text" placeholder="Search plants" />
+    <div class="plants__logo"><div class="plant"></div></div>  
+  </div>
+</header>

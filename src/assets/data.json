@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Plant 1",
+        "icon": "fa-solid fa-tree",
+        "category": "cat1",
+        "sun": 100,
+        "wet": "10%",
+        "care": "Требует повышенного внимания/ не требует ухода"
+    },
+    {
+        "name": "Plant 2",
+        "icon": "fa-solid fa-plant-wilt",
+        "category": "cat2",
+        "sun": 100,
+        "wet": "20%",
+        "care": "не требует ухода"
+    },
+    {
+        "name": "Plant 3",
+        "icon": "fa-brands fa-canadian-maple-leaf",
+        "category": "cat1",
+        "sun": 100,
+        "wet": "30%",
+        "care": "Требует повышенного внимания"
+    },
+    {
+        "name": "Plant 4",
+        "icon": "fa-solid fa-clover",
+        "category": "cat2",
+        "sun": 50,
+        "wet": "40%",
+        "care": "не требует ухода"
+    },
+    {
+        "name": "Plant 5",
+        "icon": "fa-solid fa-plant-wilt",
+        "category": "cat1",
+        "sun": 50,
+        "wet": "50%",
+        "care": "не требует ухода"
+    },
+    {
+        "name": "Plant 6",
+        "icon": "fa-solid fa-tree",
+        "category": "cat2",
+        "sun": 50,
+        "wet": "60%",
+        "care": "Требует повышенного внимания"
+    },
+    {
+        "name": "Plant 7",
+        "icon": "fa-solid fa-tree",
+        "category": "cat2",
+        "sun": 20,
+        "wet": "70%",
+        "care": "Требует повышенного внимания"
+    },
+    {
+        "name": "Plant 8",
+        "icon": "fa-solid fa-tree",
+        "category": "cat2",
+        "sun": 20,
+        "wet": "100%",
+        "care": "Требует повышенного внимания"
+    },
+    {
+        "name": "Plant 9",
+        "icon": "fa-solid fa-tree",
+        "category": "cat2",
+        "sun": 20,
+        "wet": "100%",
+        "care": "Требует повышенного внимания"
+    }
+]
+  
