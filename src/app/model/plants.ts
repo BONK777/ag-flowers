@@ -6,5 +6,5 @@ export class Plants{
     sunlight!: number;
     watering!: string;
     temperature!: string;
-    id?: string;
+    _id?: string;
 }
