@@ -1,9 +1,9 @@
-<div class="contanier">
+<!-- <div class="contanier">
   <a *ngFor="let item of data" [routerLink]="[item.name]">
     <app-flower-card *ngFor="let item of data" [plantName]="item.name" [plantIcon]="item.icon"></app-flower-card>
   </a>
 </div>
-<button (click)="loadInfo()">Load data</button>
+<button (click)="loadInfo()">Load data</button> -->
 <form #plantsFrom="ngForm" (ngSubmit)="onPlantCreate(plantsFrom.value)">
   <input type="text" placeholder="Название" name="name" ngModel>
   <input type="text" placeholder="Описание" name="description" ngModel>

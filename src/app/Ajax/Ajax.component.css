@@ -10,9 +10,9 @@
 form{
     display: flex;
     flex-direction: column;
-    padding: 15px;
     width: 500px;
     height: 700px;
+    padding: 20px 60px 27px 60px;
   }
   
   form input, select{

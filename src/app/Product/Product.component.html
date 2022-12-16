@@ -6,9 +6,9 @@
           <img src="{{ItemPlants.images[0]}}" class="active" style="background-color: #222;">
         </div>
         <ul class="image-list">
-          <li class="image-item"><img style="background-color: #777;"></li>
-          <li class="image-item"><img style="background-color: #777;"></li>
-          <li class="image-item"><img style="background-color: #777;"></li>
+          <img src="{{ItemPlants.images[0]}}" class="image-item"/>
+          <img src="{{ItemPlants.images[0]}}" class="image-item"/>
+          <img src="{{ItemPlants.images[0]}}" class="image-item"/>
         </ul>
       </div>
     </div>
@@ -16,13 +16,10 @@
       <h1>{{ItemPlants.name}}</h1>
       <h2>$19.99</h2>
       <div class="description">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus soluta rem maxime saepe porro, odit harum odio quia! Saepe culpa repellat hic.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ad sapiente minus aut voluptate sunt eveniet id eius, excepturi hic voluptatem quae dolor! Accusamus neque quidem iste est laboriosam reprehenderit sint voluptates tempora harum itaque amet tempore, commodi quaerat soluta!</p>
         <p>{{ItemPlants.description || "nothing informations"}}</p>
         <p>Температура: {{ItemPlants.temperature || "nothing informations"}}</p>
         <p>Солнце: {{ItemPlants.sunlight || "nothing informations"}}</p>
         <p>Вода: {{ItemPlants.watering || "nothing informations"}}</p>
-
       </div>
       <button class="add-to-cart">Add To Favorite</button>
     </div>

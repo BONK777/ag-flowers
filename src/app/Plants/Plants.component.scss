@@ -67,24 +67,37 @@
 .cards {
   // background-color: #fff;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px 73px 27px 89px;
+  align-items: center;
     .card {
       width: 300px;
       height: 260px;
-      background-color: #bababa;
+      // background-color: #5f8355;
+      background-color: #48653c;
       border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
         img {
-          width: 300px;
+          width: 200px;
           height: 200px;
           background-size: cover;
+          border-radius: 10px;
         }
         p {
-          color: #000;
+          // color: #000;
+          color: #fff;
           font-size: 1.25rem;
           text-align: center;
+          margin: 0;
+          // text-transform: uppercase;
+          letter-spacing: 1px;
+          font-family: monospace;
         }
     }
 }

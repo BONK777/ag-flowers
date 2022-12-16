@@ -15,10 +15,11 @@ import { Component } from '@angular/core';
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: linear-gradient(plum,orchid,purple,indigo);
+      background-image: linear-gradient(#516c46, #48653c, #203218, #131e0e);
       z-index: -1;
       font-size: 3rem;
       font-weight: bold;
+      color: #fff;
       font-family: monospace;
     }
   `]
